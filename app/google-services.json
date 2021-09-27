@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "967698276361",
+    "firebase_url": "https://locations-6642d-default-rtdb.firebaseio.com",
+    "project_id": "locations-6642d",
+    "storage_bucket": "locations-6642d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967698276361:android:3b619b650348ced171d8d8",
+        "android_client_info": {
+          "package_name": "com.google.android.gms.location.sample.locationupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967698276361-icfldesrto9vba4ppee7emf8csm0autu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxDZsDSIktEUo8iXVJfWSyV-8DbnNso8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967698276361-icfldesrto9vba4ppee7emf8csm0autu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967698276361:android:576024b947ad2a1571d8d8",
+        "android_client_info": {
+          "package_name": "id.eudeka.osg3.googlemapssample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967698276361-p3de6e6qfc5f46568bhuq5489s7aifs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.eudeka.osg3.googlemapssample",
+            "certificate_hash": "06b29e693853098ae81ea5260448edaddec4f027"
+          }
+        },
+        {
+          "client_id": "967698276361-icfldesrto9vba4ppee7emf8csm0autu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxDZsDSIktEUo8iXVJfWSyV-8DbnNso8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967698276361-icfldesrto9vba4ppee7emf8csm0autu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

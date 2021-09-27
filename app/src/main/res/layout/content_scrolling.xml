@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/texts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/others"-->
+        <!--            android:layout_width="350dp"-->
+        <!--            android:layout_height="114dp"-->
+        <!--            android:layout_marginStart="42dp"-->
+        <!--            android:layout_marginLeft="42dp"-->
+        <!--            android:layout_marginTop="23dp"-->
+        <!--            android:layout_marginEnd="19dp"-->
+        <!--            android:layout_marginRight="19dp"-->
+        <!--            android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--            android:textColorHighlight="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--            android:textColorLink="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/userinf3" />-->
+
+        <Button
+            android:id="@+id/userinf3"
+            android:layout_width="259dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="74dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:background="@color/common_google_signin_btn_text_light_pressed"
+            android:clickable="false"
+            android:text="Other Buses"
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
+            android:textCursorDrawable="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nearest" />
+
+        <Button
+            android:id="@+id/userinf2"
+            android:layout_width="259dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="74dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:background="@color/common_google_signin_btn_text_light_pressed"
+            android:clickable="false"
+            android:text="Nearest Bus Info."
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
+            android:textCursorDrawable="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/you" />
+
+        <Button
+            android:id="@+id/userinf"
+            android:layout_width="259dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="74dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:background="@color/common_google_signin_btn_text_light_pressed"
+            android:clickable="false"
+            android:text="Your Info."
+            android:textColor="@color/cardview_light_background"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
+            android:textCursorDrawable="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--        <ListView-->
+        <!--            android:id="@+id/lists"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:visibility="visible"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/userinf3" />-->
+
+        <TextView
+            android:id="@+id/others"
+            android:layout_width="308dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userinf3" />
+
+        <TextView
+            android:id="@+id/nearest"
+            android:layout_width="356dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userinf2" />
+
+        <TextView
+            android:id="@+id/you"
+            android:layout_width="343dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/common_google_signin_btn_text_light_pressed"
+            android:textCursorDrawable="@color/common_google_signin_btn_text_dark_focused"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userinf" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
